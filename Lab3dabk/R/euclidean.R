@@ -9,8 +9,11 @@
 #'
 #' @export
 #' 
-#' @example
+#' @examples
 #' euclidean(x = 1071, y = 462)
+#' 
+#' @seealso \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+
 
 euclidean <- function(x,y){
   while (x != y){
