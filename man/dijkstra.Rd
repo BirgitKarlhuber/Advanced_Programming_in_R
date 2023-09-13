@@ -2,7 +2,7 @@
 % Please edit documentation in R/dijkstra.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Algorithm to to find the shortest path from an initial node to all other nodes in a graph}
+\title{Algorithm to find the shortest path from an initial node to all other nodes in a graph}
 \usage{
 dijkstra(graph, init_node)
 }
@@ -24,5 +24,5 @@ dijkstra(wiki_graph, 1)
 
 }
 \seealso{
-
+\url{https://en.wikipedia.org/wiki/Dijkstra’s_algorithm}
 }
