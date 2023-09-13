@@ -12,7 +12,7 @@
 #' @export
 #' 
 #' @examples
-#' wiki_graph <- Lab3dabk::wiki_graph
+#' library(Lab3dabk)
 #' dijkstra(wiki_graph, 1)
 #' 
 #' @seealso \url{https://en.wikipedia.org/wiki/Dijkstra’s_algorithm}
