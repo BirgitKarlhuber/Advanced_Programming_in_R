@@ -16,11 +16,11 @@
 
 
 euclidean <- function(x,y){
+  stopifnot(is.numeric(x), is.numeric(y), x>0, y>0)
+  
   while (x != y){
     if (x>y) x = x - y
     else y = y - x
   }
   return(x)
-
 }
-

@@ -1,11 +1,11 @@
 Package: Lab3dabk
 Type: Package
-Title: Lab 3 euclidean and dijkstra algorithms
+Title: Lab 3 - Euclidean and Dijkstra algorithms
 Version: 1.0
 Date: 2023-09-08
 Depends: R(>=3.2)
 Author: Birgit Karlhuber <birgit@karlhuber.net> and Daniele Bozzoli <danbo826@student.liu.se>
 Maintainer: Birgit Karlhuber <birgit@karlhuber.net> and Daniele Bozzoli <danbo826@student.liu.se>
-Description: Compute Euclidean to find the greatest common divisor of two natural numbers and Dijkstra to find the shortest path from an initial node ti all other nodes in a graph.
+Description: Compute Euclidean to find the greatest common divisor of two natural numbers and Dijkstra to find the shortest path from an initial node to all other nodes in a graph.
 License: GPL (>= 2) | file LICENCE
 
