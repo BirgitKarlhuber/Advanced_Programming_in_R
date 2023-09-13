@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(Advanced_Programming_in_R)
+library(Lab3dabk)
 
-test_check("Advanced_Programming_in_R")
+test_check("Lab3dabk")
