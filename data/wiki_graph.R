@@ -10,5 +10,12 @@
 #'   \item{v2}{(to) edge}
 #'   \item{w}{weight of the edge}
 #' }
+#' 
+#' @export
+#' 
+#' @examples
+#' wiki_graph <- Lab3dabk::wiki_graph
+#' Lab3dabk::dijkstra(wiki_graph, 1)
+#' 
 #' @source <https://en.wikipedia.org/wiki/Dijkstra's_algorithm>
 "wiki_graph"
