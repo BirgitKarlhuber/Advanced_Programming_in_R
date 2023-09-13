@@ -10,3 +10,5 @@ Description: Compute Euclidean to find the greatest common divisor of two natura
 License: GPL (>= 2) | file LICENCE
 Suggests: testthat (>= 3.0.0)
 RoxygenNote: 7.2.3
+Encoding: UTF-8
+LazyData: true
