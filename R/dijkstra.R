@@ -19,7 +19,7 @@
 
 
 dijkstra <- function(graph, init_node){
-  stopifnot(is.data.frame(graph))
+  stopifnot(is.data.frame(graph), is.numeric(init_node))
   
   num_nodes <- length(unique(graph[[2]])) # get the number of nodes/vertex
   

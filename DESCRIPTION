@@ -8,4 +8,5 @@ Author: Birgit Karlhuber <birgit@karlhuber.net> and Daniele Bozzoli <danbo826@st
 Maintainer: Birgit Karlhuber <birgit@karlhuber.net> and Daniele Bozzoli <danbo826@student.liu.se>
 Description: Compute Euclidean to find the greatest common divisor of two natural numbers and Dijkstra to find the shortest path from an initial node to all other nodes in a graph.
 License: GPL (>= 2) | file LICENCE
+Suggests: testthat (>= 3.0.0)
 RoxygenNote: 7.2.3
