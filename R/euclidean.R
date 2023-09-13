@@ -1,11 +1,11 @@
 #' Algorithm to find the greatest common divisor of two numbers 
 #' 
-#' The algorithm computes the greatest common divisor of two natural numbers x and y. 
+#' The algorithm computes the greatest common divisor of two numbers x and y. 
 #'
-#' @param x is greater than 0 while x is whole number
-#' @param y is greater than 0 while y is whole number
+#' @param x is a whole number
+#' @param y is a whole number
 #'
-#' @return The greatest common divisor is the largest natural number that divides both x and y without a remainder. 
+#' @return The greatest common divisor is the largest whole number that divides both x and y without a remainder. 
 #'
 #' @export
 #' 
@@ -16,7 +16,8 @@
 
 
 euclidean <- function(x,y){
-  stopifnot(is.numeric(x), is.numeric(y), x>0, y>0)
+  stopifnot(is.numeric(x), is.numeric(y))
+  x <- abs(x); y <- abs(y)
   
   while (x != y){
     if (x>y) x = x - y

@@ -7,15 +7,15 @@
 euclidean(x, y)
 }
 \arguments{
-\item{x}{is greater than 0 while x is whole number}
+\item{x}{is a whole number}
 
-\item{y}{is greater than 0 while y is whole number}
+\item{y}{is a whole number}
 }
 \value{
-The greatest common divisor is the largest natural number that divides both x and y without a remainder.
+The greatest common divisor is the largest whole number that divides both x and y without a remainder.
 }
 \description{
-The algorithm computes the greatest common divisor of two natural numbers x and y.
+The algorithm computes the greatest common divisor of two numbers x and y.
 }
 \examples{
 euclidean(x = 1071, y = 462)
