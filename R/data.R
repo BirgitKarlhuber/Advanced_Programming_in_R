@@ -11,8 +11,6 @@
 #'   \item{w}{weight of the edge}
 #' }
 #' 
-#' @export
-#' 
 #' @examples
 #' library(Lab3dabk)
 #' dijkstra(wiki_graph, 1)

@@ -19,7 +19,7 @@ The shortest path to every other node from the starting node as a vector.
 The algorithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph.
 }
 \examples{
-wiki_graph <- Lab3dabk::wiki_graph
+library(Lab3dabk)
 dijkstra(wiki_graph, 1)
 
 }
