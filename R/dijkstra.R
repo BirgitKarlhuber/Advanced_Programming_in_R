@@ -23,6 +23,8 @@ dijkstra <- function(graph, init_node){
             all(names(graph) == c("v1","v2","w")), 
             init_node %in% unique(graph[[2]]))
   
+  # idea: https://www.algorithms-and-technologies.com/dijkstra/r
+  
   num_nodes <- length(unique(graph[[2]])) # get the number of nodes/vertex
   
   # create a matrix of the distances
